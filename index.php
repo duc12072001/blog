@@ -40,13 +40,13 @@
             <div class="menu text-right">
                 <ul>
                     <li>
-                        <a href="<?php echo SITEURL; ?>">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="<?php echo SITEURL; ?>categories.php">Categories</a>
+                        <a href="index.php">Categories</a>
                     </li>
                     <li>
-                        <a href="<?php echo SITEURL; ?>foods.php">Foods</a>
+                        <a href="index.php">Foods</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
@@ -63,7 +63,7 @@
     <section class="food-search text-center">
         <div class="container">
             
-            <form action="<?php echo SITEURL; ?>food-search.php" method="POST">
+            <form action="index.php" method="POST">
                 <input type="search" name="search" placeholder="Search for Food.." required>
                 <input type="submit" name="submit" value="Search" class="btn btn-primary">
             </form>
@@ -189,7 +189,7 @@
                                 {
                                     //Image Available
                                     ?>
-                                    <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                                    <img src="index.php" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
                                     <?php
                                 }
                             ?>
@@ -204,7 +204,7 @@
                             </p>
                             <br>
 
-                            <a href="<?php echo SITEURL; ?>order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
+                            <a href="index.php" class="btn btn-primary">Order Now</a>
                         </div>
                     </div>
 
